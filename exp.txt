@@ -1,0 +1,61 @@
+GRPC
+../images/720p_1.jpeg
+t= 0.01615619659423828
+Channel: 3, Mean: 1.0
+../images/480p.jpeg
+t= 0.0023298263549804688
+Channel: 3, Mean: 1.0
+../images/720p.jpeg
+t= 0.0075762271881103516
+Channel: 3, Mean: 1.0
+../images/1080p_1.jpeg
+t= 0.019857406616210938
+Channel: 3, Mean: 1.0
+../images/480p_2.jpeg
+t= 0.0025076866149902344
+Channel: 3, Mean: 1.0
+../images/1080p_2.jpeg
+t= 0.017083168029785156
+Channel: 3, Mean: 1.0
+done
+
+rest api 
+./images/720p_1.jpeg
+t= 0.008406400680541992
+b'{"Hello":"()1.6689300537109375e-05"}'
+../images/480p.jpeg
+t= 0.003549814224243164
+b'{"Hello":"()1.4781951904296875e-05"}'
+../images/720p.jpeg
+t= 0.006899833679199219
+b'{"Hello":"()2.8133392333984375e-05"}'
+../images/1080p_1.jpeg
+t= 0.010466814041137695
+b'{"Hello":"()2.3365020751953125e-05"}'
+../images/480p_2.jpeg
+t= 0.004216670989990234
+b'{"Hello":"()1.52587890625e-05"}'
+../images/1080p_2.jpeg
+t= 0.011814117431640625
+b'{"Hello":"()3.4809112548828125e-05"}'
+done
+
+websocket
+../images/720p_1.jpeg (720, 1280, 3)
+t= 0.15573477745056152
+Received from server: Data received as: (2764800,)!
+../images/480p.jpeg (480, 854, 3)
+t= 0.0683133602142334
+Received from server: Data received as: (1229760,)!
+../images/720p.jpeg (720, 1280, 3)
+t= 0.15638327598571777
+Received from server: Data received as: (2764800,)!
+../images/1080p_1.jpeg (1080, 1920, 3)
+t= 0.3567032814025879
+Received from server: Data received as: (6220800,)!
+../images/480p_2.jpeg (480, 854, 3)
+t= 0.06935524940490723
+Received from server: Data received as: (1229760,)!
+../images/1080p_2.jpeg (1080, 1920, 3)
+t= 0.3541576862335205
+Received from server: Data received as: (6220800,)!
